@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Pokédex</title>
 </head>
@@ -16,8 +16,30 @@
     <main id="app">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/445.gif" alt="pokemon" id="pokemonImg">
 
+        <div id="pokemonData">
+            <span id="pokemonNumber">445</span>
+            <span>-</span>
+            <span id="pokemonName">garchomp</span>
+        </div>
+
+        <form id="form">
+            <input
+            type="search"
+            id="inputSearch"
+            placeholder="Name or Number"
+            required
+            >
+        </form>
+
+        <div id="buttons">
+            <button class="button" id="prevButton">Prev &lt;</button>
+            <button class="button" id="nextButton">Next &gt;</button>
+        </div>
+
         <img src="images/pokedex.png" alt="Pokédex" id="pokedex">
     </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
