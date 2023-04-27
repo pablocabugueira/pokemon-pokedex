@@ -26,6 +26,9 @@ body {
     left: 50%;
     transform: translate(-63%, 20%);
     height: 18%;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #pokemonData {
@@ -47,6 +50,9 @@ body {
     top: 65%;
     left: 13.5%;
     width: 65%;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #inputSearch {
@@ -69,6 +75,9 @@ body {
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .button {
@@ -91,4 +100,7 @@ body {
 #pokedex {
     width: 100%;
     max-width: 425px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
