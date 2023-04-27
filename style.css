@@ -33,7 +33,7 @@ body {
     top: 54.5%;
     right: 27%;
     font-weight: 600;
-    font-size: clamp(8px, 5vw, 25px);
+    font-size: clamp(8px, 4.3vw, 20px);
     color: #aaa;
 }
 
